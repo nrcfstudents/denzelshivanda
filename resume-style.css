@@ -1,0 +1,35 @@
+body{
+	background: skyblue;
+
+	
+}
+  .profile-info-container {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      padding: 25px 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      gap: 25px;
+    }
+
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ddd;
+    }
+
+    table{
+      border: solid 2px black;
+    }
+    th,td{
+    border: solid 2px black;
+    }
+    
+
+
+
+
