@@ -33,6 +33,14 @@
       </tr>
     </table>
   </div>
+  <form action="send-message.php" method="post">
+    <label>Your Name</label>
+    <input type="text" name="sender">
+    <label>Message</label>
+    <textarea name="message"></textarea>
+    <button type="submit">send</button>
+  </form>
+  
 
 </body>
 </html>
